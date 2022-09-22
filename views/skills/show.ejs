@@ -5,13 +5,17 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+
   <title>Power</title>
 </head>
 
 <body>
-  <h1>Power</h1>
-  <h2>Skill <%= skill.weakness %>
+  <h1>Skills</h1>
+  <a href="/skills/<%= skill._id %>/edit">Edit Skill</a>
+  <h2>Power <%= skill.power %>
   </h2>
+  <a href="/skills">Go Back!</a>
 </body>
 
 </html>
